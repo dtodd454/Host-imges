@@ -1,0 +1,25 @@
+body{overflow-x:hidden;margin-top:0;padding:90px}img{display:inline;padding:100px}a{cursor:pointer;-webkit-transition:all .5s ease-in-out;-moz-transition:all .5s ease-in-out;-o-transition:all .5s ease-in-out;transition:all .5s ease-in-out}a:focus,a:hover{outline:0;text-decoration:none}.m-t-25{margin-top:25px!important}.m-b-30{margin-bottom:30px!important}.m-b-8{margin-bottom:8px!important}.m-b-5{margin-bottom:5px!important}.p-b-0{padding-bottom:0!important}.content-box{background:#fff}.content h1{font-family:OpenSans-Bold;margin:30px 0 16px 0;color:#222;font-size:46px;line-height:44px}.content .img-responsive{margin:0 auto 5px auto}.content p{font-family:Verdana;margin:0 0 20px 0;line-height:26px;font-size:17px;color:#222}.content p.small-text{font-size:15px;padding:15px 5px;border-top:1px solid #ccc;border-bottom:1px solid #ccc;line-height:23px}.content p.update{border:1px dotted #000;background:#effff7;padding:4px 9px}.content h5{font-family:Georgia;color:#222;margin:8px 0 20px 0;font-size:20px;line-height:28px}.content h4{font-family:OpenSans-Bold;font-size:21px;line-height:28px;color:#222;margin:0 0 20px 0}.content p a{color:#0198bd}.content p a:focus,.content p a:hover{color:#0198bd}.content h3{font-family:OpenSans-Bold;color:#222;margin:26px 0;font-size:26px}@media only screen and (max-width:767px){.content h1{font-size:30px}}.media{margin:0;padding:8px 0;border-top:1px solid #e2e2e2}.media-left img{margin-top:6px}.media-body h4 a{font-family:Tahoma;font-size:13px;color:#3b5998;margin:0 0 5px 0;line-height:14px;font-weight:700}.media-body h4 a:focus,.media-body h4 a:hover{color:#3b5998}.media-body p{font-family:Tahoma;font-size:12px;color:#1a1a1a;line-height:15px;margin:0 0 5px 0}.media-body p.bottom{color:#3b5998}.media-body p.bottom .like{margin-left:8px}.media-body p.bottom .time{color:grey;border-bottom:1px dotted grey}.col-md-4{padding-top:30px}@media only screen and (max-width :992px){.col-md-4{display:none}}
+
+h1.main-title {
+font-size: 32px;
+margin: 20px 0
+}
+
+.head-mobile {
+display: none
+}
+
+@media only screen and (max-width:600px) {
+h1.main-title {
+font-size: 24px
+}
+.head-mobile {
+display: block
+}
+.head-top {
+display: none
+}
+.head-nav {
+display: none
+}
+}
